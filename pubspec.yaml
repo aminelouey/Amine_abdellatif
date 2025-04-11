@@ -1,0 +1,28 @@
+name: projet_8016586
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  projet_8016586_f2f:
+    git: https://f2f.bostonux.com/packages/projet_8016586_f2f
+  provider: ^6.1.4
+  window_manager: ^0.4.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/assets/Fonts/Poppins/Poppins-Regular.ttf
+        - asset: lib/assets/Fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: lib/assets/Fonts/Poppins/Poppins-Italic.ttf
+          style: italic
